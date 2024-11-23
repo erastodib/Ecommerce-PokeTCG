@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1a1a1a;
+  color: #d1d1d1;
+}
+
+.checkout-container {
+  background-color: #1f1f1f;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.checkout-title {
+  text-align: center;
+  color: #8083ff;
+  margin-bottom: 2rem;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  
+}
+
+.checkout-input {
+  background-color: #2a2a2a;
+  color: #d1d1d1;
+  border: 1px solid #5d5f8d;
+  transition: all 0.3s ease-in-out;
+}
+
+.checkout-input input {
+  color: #d1d1d1;
+}
+
+.checkout-input:hover,
+.checkout-input:focus {
+  border-color: #8083ff;
+  background-color: #333;
+}
+
+.checkout-button {
+  background-color: #5d5f8d;
+  color: #e0e0e0;
+  border-radius: 4px;
+  padding: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #8083ff;
+}
+
+button:disabled {
+  background-color: #3a3a3a;
+  cursor: not-allowed;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
